@@ -1,0 +1,36 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f5e1da;
+    text-align: center;
+    margin: 50px;
+}
+
+.descripcion p {
+    font-size: 20px;
+    color: #5a3e2b;
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    background: #fff8e7;
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.2);
+    font-style: italic;
+}
+
+.boton .descargar {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    background-color: #d32f2f; /* Rojo tomate */
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px rgba(0,0,0,0.3);
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.boton .descargar:hover {
+    background-color: #b71c1c;
+}
