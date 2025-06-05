@@ -1,3 +1,4 @@
-function showMessage() {
-    alert("¡Un desayuno saludable mejora tu rendimiento y tu bienestar diario!");
+function mostrarMas() {
+    const masInfo = document.getElementById("masInfo");
+    masInfo.classList.toggle("hidden");
 }
