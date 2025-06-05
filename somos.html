@@ -1,53 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Somos - UVM</title>
-    <link rel="stylesheet" href="somos.css">
-    <script src="somos.js" defer></script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Somos - La Importancia del Desayuno</title>
+<link rel="stylesheet" href="somos.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script> <!-- Librería para gráficos -->
 </head>
 <body>
+<header>
+<nav>
+<ul>
+<li><a href="#quienes-somos">¿Quiénes somos?</a></li>
+<li><a href="#importancia-desayuno">Importancia del desayuno</a></li>
+<li><a href="#estudios">Estudios</a></li>
+<li><a href="#boton-canva">Ir a Canva</a></li>
+</ul>
+</nav>
+</header>
 
-    <!-- Sección Principal -->
-    <header>
-        <div class="container-header">
-            <h1>¿Quiénes Somos?</h1>
-            <p>Un equipo comprometido con la salud y el bienestar académico.</p>
-        </div>
-    </header>
+ 
 
-    <!-- Sección de Información -->
-    <section class="info">
-        <div class="content">
-            <h2>Somos un grupo de 3 chicos de la UVM Campus Lomas Verdes</h2>
-            <p class="descripcion">
-                Nuestro objetivo es promover entre nuestros compañeros la importancia de desayunar cada día, 
-                entendiendo que el desayuno es esencial para un buen rendimiento académico y personal. Sabemos que un 
-                desayuno equilibrado puede marcar la diferencia entre un día productivo y un día sin energía. 
-                ¡Queremos que todos nuestros compañeros puedan aprovechar al máximo su día!
-            </p>
-            <p class="descripcion">
-                Como estudiantes, entendemos lo difícil que puede ser encontrar tiempo para una comida saludable 
-                antes de comenzar nuestras actividades diarias. Por eso, nuestro objetivo es ayudar a mejorar hábitos 
-                alimenticios de manera simple, efectiva y motivadora. ¿Te unes a nosotros?
-            </p>
-        </div>
-    </section>
+  <main>
+<section id="quienes-somos" class="section">
+<h1>¿Quiénes somos?</h1>
+<p>
+        Somos un grupo de 3 chicos alumnos de la UVM Campus Lomas Verdes, intentando fomentar entre nuestros compañeros la importancia de desayunar para mejorar su rendimiento académico y personal. 
+        Este hábito saludable es clave para un día productivo, lleno de energía y concentración.
+</p>
+<p>
+        Nuestro propósito es ayudar a la comunidad estudiantil a comprender los beneficios de empezar el día con un buen desayuno, y cómo este impacta positivamente en la vida diaria.
+</p>
+</section>
 
-    <!-- Sección de Recursos -->
-    <section class="resources">
-        <div class="container-resources">
-            <h2>Recursos Descargables</h2>
-            <p>Haz clic en el siguiente botón para acceder a nuestro material en PDF sobre hábitos saludables.</p>
-            <a href="documento.pdf" class="download-btn" target="_blank">Descargar PDF</a>
-        </div>
-    </section>
+ 
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2025 UVM Lomas Verdes. Todos los derechos reservados.</p>
-    </footer>
+    <section id="importancia-desayuno" class="section">
+<h2>¿Por qué es importante desayunar?</h2>
+<ul>
+<li><strong>Mejora la concentración:</strong> El desayuno ayuda a mantener un nivel adecuado de glucosa en la sangre, esencial para el funcionamiento del cerebro.</li>
+<li><strong>Aumenta la energía:</strong> Aporta nutrientes esenciales que le dan al cuerpo la energía necesaria para el día.</li>
+<li><strong>Estabiliza el peso:</strong> Comer temprano puede evitar comer en exceso más tarde en el día.</li>
+<li><strong>Mejora el rendimiento académico:</strong> Estudiantes que desayunan tienen mejor memoria y capacidad de concentración.</li>
+</ul>
+</section>
 
+ 
+
+    <section id="estudios" class="section">
+<h2>Estudios científicos sobre el desayuno</h2>
+<p>Según diversos estudios, se ha demostrado que el desayuno tiene un impacto directo en la productividad y el rendimiento académico. A continuación, te mostramos un gráfico que ilustra los beneficios del desayuno para el rendimiento académico en estudiantes universitarios:</p>
+
+<canvas id="rendimientoGrafico" width="400" height="200"></canvas>
+</section>
+
+ 
+
+    <section id="boton-canva" class="section">
+<a href="https://www.canva.com" target="_blank">
+<button class="cta-button">Ir a Canva</button>
+</a>
+</section>
+</main>
+
+ 
+
+  <footer>
+<p>&copy; 2025 - Grupo de Estudiantes UVM Lomas Verdes</p>
+</footer>
+
+ 
+
+  <script src="somos.js"></script>
 </body>
-</html>
+</html
